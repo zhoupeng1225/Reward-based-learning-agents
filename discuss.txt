@@ -1,0 +1,11 @@
+
+#np.searchsorted
+Use the np.searchsorted function to find the index at which the random number would be inserted into the cumulative probabilities array to maintain the array in sorted order. 
+This index is equivalent to the action selected by softmax.
+
+Q-learning:
+can be understood as:
+new_value = old_value + learning_rate * (observed_reward + discount_factor * estimated_future_reward - old_value)
+
+#np.max(self.Q[state_new,:]) 
+is the maximum predicted Q-value over all possible actions from the new state state_new. This essentially represents the highest value the agent can expect to achieve from the next state onwards.
